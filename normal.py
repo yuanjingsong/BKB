@@ -25,5 +25,5 @@ if __name__ == "__main__":
 
     list = sorted(mainDict.items(), key = lambda d: d[1], reverse = True)
 
-    for i in range(int(len(mainDict)/10)):
+    for i in range(10):
         print (list[i])
